@@ -2,4 +2,4 @@
 
 
 This is a profile summary for Haider Ali. I am a Machine Learning Engineer. interested in clinical data science.
-
+I am also going to blog here a little. 
