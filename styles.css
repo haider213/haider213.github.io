@@ -34,10 +34,34 @@ a:hover {
     color: #0056b3;
     text-decoration: underline;
 }
-
-img {
-    max-width: 100%;
+/* Animated text */
+.animated-text {
+    animation: fadeIn 1s ease-in-out; /* add an animation */
+    animation-fill-mode: both; /* keep the animation visible after it's finished */
+    visibility: hidden; /* hide the text by default */
 }
+
+/* Keyframes for the animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+/* Profile picture */
+img {
+    max-width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out; /* add a transition effect */
+}
+
+img:hover {
+    transform: rotate(360deg); /* rotate the image when hovered */
+}
+
 
 .container {
     max-width: 1200px;
