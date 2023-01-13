@@ -40,6 +40,11 @@ a:hover {
     animation-fill-mode: both; /* keep the animation visible after it's finished */
     visibility: hidden; /* hide the text by default */
 }
+.logo {
+    float: right;
+    margin-right: 10px;
+}
+
 
 /* Keyframes for the animation */
 @keyframes fadeIn {
